@@ -32,3 +32,7 @@ This module compiles applied artifacts, strategic analyses, operational workflow
 ## Deliverables & Documentation
 
 Artifacts housed within this directory include executive policy memos, formal system assessment reports, BPMN workflow schematics, and project charters designed for healthcare leadership and operational stakeholders.
+
+### Applied Policy & Governance Briefs
+* [**Algorithmic Bias in Predictive Clinical Decision Support: An Ethical Evaluation**](./ethical-evaluation-algorithmic-bias-cdss.pdf)  
+  *An ethical analysis evaluating commercial healthcare risk-stratification algorithms (Obermeyer et al.) through Utilitarian and Deontological moral frameworks, advocating for pre-deployment bias audits and algorithmic governance under AHIMA/ethical standards.*
