@@ -1,0 +1,14 @@
+{
+  "resourceType": "Patient",
+  "id": "patient-001",
+  "name": [
+    {
+      "use": "official",
+      "family": "Rivera",
+      "given": [
+        "Elena"
+      ]
+    }
+  ],
+  "birthDate": "1988-06-14"
+}
