@@ -14,9 +14,10 @@ A consolidated repository demonstrating applied health informatics competencies 
 | Module | Core Domains | Key Deliverables & Methodologies |
 | :--- | :--- | :--- |
 | [**01-hl7-fhir-standards**](./01-hl7-fhir-standards/) | HL7 FHIR R4, REST APIs, JSON Schemas | Patient & Observation resource modeling, terminology bindings (LOINC, SNOMED CT), structural cardinality rules. |
-| [**02-clinical-database-analytics**](./02-clinical-database-analytics/) | Clinical Databases, Relational Schemas | Cohort identification, multi-table JOINs, Common Table Expressions (CTEs), and database certification drills. |
-| [**03-health-systems-consulting**](./03-health-systems-consulting/) | Health Systems Assessment, Care Coordination | Operational systems analysis, clinical care coordination frameworks, and healthcare enterprise consulting deliverables. |
-| [**04-clinical-research-and-publications**](./04-clinical-research-and-publications/) | Health Services Research, Clinical AI Evaluation | Health Information Exchange (HIE) peer-reviewed manuscripts, PRISMA study selection diagrams, and Congestive Heart Failure (CHF) readmission predictive modeling presentations. |
+| [**02-health-data-interoperability**](./02-health-data-interoperability/) | Health Data Interoperability, REST APIs, JSON Syntax | Data exchange architectures, RESTful request/response handling, JSON serialization/parsing, HIE document concepts. |
+| [**03-clinical-database-analytics**](./03-clinical-database-analytics/) | Clinical Databases, Relational Schemas | Cohort identification, multi-table JOINs, Common Table Expressions (CTEs), and database certification drills. |
+| [**04-health-systems-workflows**](./04-health-systems-workflows/) | Health Systems Assessment, Care Coordination | Operational systems analysis, clinical care coordination frameworks, and healthcare enterprise consulting deliverables. |
+| [**05-clinical-research-and-analytics**](./05-clinical-research-and-analytics/) | Health Services Research, Clinical AI Evaluation | Health Information Exchange (HIE) peer-reviewed manuscripts, PRISMA study selection diagrams, and Congestive Heart Failure (CHF) readmission predictive modeling presentations. |
 
 ---
 
@@ -33,10 +34,11 @@ A consolidated repository demonstrating applied health informatics competencies 
 
 Each directory contains a dedicated README providing methodological context, data dictionaries, schema definitions, and analytical notes for the associated project artifacts.
 
+---
+
 ## Industry Certifications & Accreditations
 
-* **Break the Code Program** — HL7 International (Participant)
-* **Health Information Technology Specialization** — Johns Hopkins University (Coursera)
-* **Data and Health Informatics Fundamentals** — Johns Hopkins University (Coursera)
+* **Break the Code Program** — HL7 International *(Participant)*
+* **Health Information Technology Specialization** — Johns Hopkins University *(Coursera)*
+* **Data and Health Informatics Fundamentals** — Johns Hopkins University *(Coursera)*
 * **Certified Revenue Cycle Representative (CRCR)** — Healthcare Financial Management Association (HFMA) *(Candidate)*
-
