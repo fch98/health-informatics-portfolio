@@ -1,40 +1,37 @@
-# Clinical Database Analytics & Applied Computing
+# Clinical Database Systems & Relational Analytics
 
-[![Database](https://img.shields.io/badge/Database-SQL%20%7C%20PostgreSQL-336791.svg)](https://www.postgresql.org/)
-[![Computing](https://img.shields.io/badge/Computing-Python%203.9+-3776AB.svg)](https://www.python.org/)
-[![Data Processing](https://img.shields.io/badge/Data%20Eng-Pandas%20%7C%20NumPy-150458.svg)](https://pandas.pydata.org/)
-[![Standards](https://img.shields.io/badge/Clinical%20Models-EHR%20%7C%20OMOP%20CDM-red.svg)](https://www.ohdsi.org/)
+[![Database](https://img.shields.io/badge/Engine-PostgreSQL%20%7C%20SQLite-336791.svg)](https://www.postgresql.org/)
+[![Language](https://img.shields.io/badge/Query-ANSI%20SQL-orange.svg)](https://learnsql.com/)
+[![Schemas](https://img.shields.io/badge/Architecture-Relational%20%7C%203NF-green.svg)](https://en.wikipedia.org/wiki/Third_normal_form)
+[![Analytics](https://img.shields.io/badge/Methods-Window%20Functions%20%7C%20CTEs-blue.svg)](https://mode.com/sql-tutorial/)
 
-This module covers clinical database architecture, enterprise relational querying, and applied Python computation for healthcare data. It bridges raw transactional Electronic Health Record (EHR) schemas with analytical data modeling for clinical decision support, cohort identification, and quality metrics reporting.
+Applied relational database design, query optimization, and structured analytical reporting for clinical environments. This module demonstrates data modeling, Electronic Health Record (EHR) schema extraction, and complex data pipeline development.
 
 ---
 
-## Technical Competencies & Toolsets
+## Technical Competencies & Framework
 
-| Domain Area | Tools & Frameworks | Applied Clinical Methodologies |
+| Focus Area | Core Standards & Technologies | Applied Implementation Scope |
 | :--- | :--- | :--- |
-| **Relational Clinical Querying** | SQL, PostgreSQL, SQLite, MySQL | Multi-table relational joins, Common Table Expressions (CTEs), subqueries, and window functions applied across clinical encounter tables. |
-| **Cohort & Quality Extraction** | ANSI SQL, Aggregations, GROUP BY | Constructing complex patient cohorts, 30-day readmission flags, length-of-stay (LOS) metrics, and healthcare utilization indicators. |
-| **Applied Clinical Computing** | Python (Pandas, NumPy) | Automated data ingestion, handling missing clinical variables, normalization pipelines, and structured export for downstream reporting. |
-| **Schema & Data Standards** | Relational Schemas, Data Dictionaries | Querying normalized EHR tables (Patients, Encounters, Conditions, Lab Observations) and mapping toward common data models (OMOP CDM). |
+| **Relational Data Modeling** | 3NF, ERD Diagrams, Schema Normalization | Designing relational schemas to eliminate redundancy and maintain clinical transaction integrity. |
+| **Advanced SQL Queries** | Multi-table JOINs, CTEs, Window Functions | Segmenting cohorts, tracking longitudinal patient visits, and aggregating lab values across clinical tables. |
+| **Data Integrity & Validation** | Primary/Foreign Keys, Constraints, ACID | Enforcing referential constraints and transaction safety across patient and provider entities. |
+| **Clinical Data Extraction** | PostgreSQL, SQLite, DB Browser | Querying relational clinical datasets to prepare clean inputs for statistical and visualization workflows. |
 
 ---
 
-## Core Focus Areas
+## Applied Modules & Deliverables
 
-### 1. Relational Healthcare Architecture & Query Optimization
-* **Cohort Extraction:** Writing modular SQL statements using CTEs to isolate complex chronic disease cohorts based on multi-criteria encounter criteria.
-* **Clinical Aggregations:** Calculating hospital census trends, bed turnover rates, and longitudinal patient encounter frequencies using window functions (`ROW_NUMBER()`, `RANK()`, `PARTITION BY`).
-* **Integrity & Constraints:** Enforcing referential constraints and handling longitudinal EHR nuances, such as ambiguous null values, date calculations, and duplicate claim records.
-
-### 2. Python-Driven Healthcare Pipelines
-* **ETL Workflows:** Transforming tabular data extracts from relational databases into analysis-ready formats using Pandas.
-* **Data Hygiene:** Addressing clinical data anomalies, date-time formatting standardizations across varying time zones, and handling missing laboratory panels.
-* **Interoperable Exports:** Bridging SQL database outputs with downstream interoperability pipelines (converting query results into serialized formats such as JSON).
+| Module / Topic | Focus Domain | Key Artifacts | Status |
+| :--- | :--- | :--- | :--- |
+| **`sql-clinical-drills`** | Complex Querying & Aggregation | Multi-table JOIN scripts, window functions, CTEs | Active |
+| **`database-normalization`** | Relational Schemas & Architecture | Entity-Relationship Diagrams (ERD), 3NF schemas | Planned |
+| **`ehr-cohort-extraction`** | Population Health & Registry Queries | SQL scripts for chronic disease cohort identification | Planned |
 
 ---
 
-## Applied Objectives
-* Execute optimized relational queries against transactional and analytical clinical databases.
-* Apply Python for reproducible clinical data pipelines, validation, and automated reporting.
-* Prepare for and demonstrate applied competencies required in clinical analytics certifications and enterprise healthcare systems.
+## Technical Reference & Tools
+
+* **Database Engines:** PostgreSQL, SQLite
+* **Modeling Tools:** DB Browser for SQLite, Draw.io (ERD)
+* **Standards:** ANSI SQL Standards
