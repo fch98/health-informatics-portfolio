@@ -1,30 +1,23 @@
 # Health Data Interoperability & Integration
 
-Applied architectures, data exchange schemas, and enterprise integration patterns for clinical healthcare systems. This directory focuses on syntactic and semantic interoperability across distributed electronic health record (EHR) platforms and health information exchanges (HIEs).
+[![Exchange](https://img.shields.io/badge/Exchange-REST%20APIs%20%7C%20JSON-blue.svg)](https://www.json.org/)
+[![Standards](https://img.shields.io/badge/Standards-ONC%20USCDI%20%7C%20C--CDA-brightgreen.svg)](https://www.healthit.gov/isa/united-states-core-data-interoperability-uscdi)
+[![Syntax](https://img.shields.io/badge/Syntax-JSON%20Schema%20%7C%20XML-orange.svg)](https://www.w3.org/XML/)
+[![Protocols](https://img.shields.io/badge/Protocols-HTTPS%20%7C%20OAuth2-informational.svg)](https://oauth.net/2/)
+
+Applied architectures, data exchange schemas, and enterprise integration patterns for modern healthcare ecosystems. This module focuses on achieving syntactic and semantic interoperability across distributed Electronic Health Record (EHR) platforms, health information exchanges (HIEs), and third-party clinical APIs.
 
 ---
 
-## Technical Scope & Focus Areas
+## Technical Competencies & Framework
 
-* **Data Formats & Syntax:** Practical data serialization and parsing utilizing JSON and XML for healthcare payloads.
-* **API Architectures:** RESTful interface implementations, HTTP method handling, payload validation, and endpoint testing.
-* **Exchange Frameworks:** Health Information Exchange (HIE) governance, Consolidated CDA (C-CDA) document models, and USCDI (United States Core Data for Interoperability) baseline datasets.
-* **Interface & Semantic Mapping:** Cross-walking proprietary clinical schemas and non-standard data tables to standardized interoperability terminologies.
-
----
-
-## Modules & Technical Artifacts
-
-| Module / Topic | Focus Domain | Key Artifacts | Status |
-| :--- | :--- | :--- | :--- |
-| **`json-and-api-foundations`** | Syntax, Data Structures & Parsing | Core JSON objects, array parsing scripts, HTTP payloads | Active |
-| **`health-information-exchange-hie`** | Regional & Enterprise Exchange Architectures | HIE operational models, cross-enterprise document sharing | Planned |
-| **`uscdi-standards-mapping`** | Federal Interoperability Baselines | Core clinical dataset element alignment & gap analysis | Planned |
+| Focus Area | Core Standards & Technologies | Applied Implementation Scope |
+| :--- | :--- | :--- |
+| **Data Serialization & Syntax** | JSON (ECMA-404), XML Schema | Constructing rigid serialization payloads, nested arrays, and deterministic schema validation for clinical transactions. |
+| **Interface & API Design** | RESTful HTTP Verbs, Postman, cURL | Authoring idempotent endpoints (`GET`, `POST`, `PUT`, `DELETE`), header handling, token authentication, and status codes. |
+| **Exchange Frameworks** | ONC USCDI, HL7 C-CDA | Mapping disparate clinical data dictionaries into standardized baseline datasets and document exchange templates. |
+| **Enterprise HIE Architectures** | Master Patient Index (MPI), XDS.b | Analyzing query-based and directed clinical exchange models across federated hospital networks. |
 
 ---
 
-## Applied Standards & Frameworks
-
-* **Serialization Standards:** JSON (ECMA-404), XML Schema
-* **Interoperability Standards:** ONC USCDI, HL7 C-CDA
-* **Transport Protocols:** HTTPS, RESTful Web Services, JSON/REST APIs
+## Domain Overview: Bridging Clinical Disconnection
