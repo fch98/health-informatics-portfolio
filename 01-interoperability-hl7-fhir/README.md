@@ -38,3 +38,9 @@ Traditional Electronic Health Record (EHR) systems have historically operated wi
 * **Regenstrief LOINC:** [Logical Observation Identifiers Names and Codes](https://loinc.org/)
 * **SNOMED International:** [SNOMED CT Browser](https://browser.ihtsdotools.org/)
 * **US Core Implementation Guide:** [HL7 US Core Profiles](https://hl7.org/fhir/us/core/)
+
+---
+
+### Applied Interoperability Builds & Schema Modeling
+* [**Week 3: FHIR R5 Resource Structures & Clinical Vocabularies**](./week-03-resource-modeling/)  
+  *Hands-on FHIR R5 schemas implementing Patient and Observation resources, demonstrating `HumanName` and primitive element cardinality, reference binding (`subject.reference`), and clinical vocabulary mapping across LOINC (`29463-7`) and UCUM standards.*
