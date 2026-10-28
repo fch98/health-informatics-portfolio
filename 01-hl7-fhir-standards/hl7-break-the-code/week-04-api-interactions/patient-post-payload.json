@@ -1,0 +1,40 @@
+{
+  "resourceType": "Patient",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient"
+    ]
+  },
+  "identifier": [
+    {
+      "system": "http://hospital.smarthealth.org",
+      "value": "MRN-90210-A"
+    }
+  ],
+  "active": true,
+  "name": [
+    {
+      "use": "official",
+      "family": "Morales",
+      "given": [
+        "Sofia",
+        "Isabel"
+      ]
+    }
+  ],
+  "gender": "female",
+  "birthDate": "1992-04-18",
+  "address": [
+    {
+      "use": "home",
+      "line": [
+        "4502 Westheimer Rd",
+        "Apt 304"
+      ],
+      "city": "Houston",
+      "state": "TX",
+      "postalCode": "77027",
+      "country": "US"
+    }
+  ]
+}
